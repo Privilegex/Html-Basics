@@ -1,0 +1,86 @@
+Main root
+<html> … </html>
+The HTML <html> element represents the root (top-level element) of an HTML document, so it
+is also referred to as the root element. All other elements must be descendants of this element.
+Example:
+<!DOCTYPE html>
+<html lang="en">
+<head>...</head>
+<body>...</body>
+</html>
+Document metadata
+<head> … </head>
+The HTML <head> element contains machine-readable information (metadata) about the
+document, like its title, scripts, and style sheets.
+<link>
+The HTML External Resource Link element (<link>) specifies relationships between the current
+document and an external resource. This element is most commonly used to link to stylesheets,
+but is also used to establish site icons (both "favicon" style icons and icons for the home screen
+and apps on mobile devices) among other things.
+<meta>
+The HTML <meta> element represents metadata that cannot be represented by other HTML
+meta-related elements, like <base>, <link>, <script>, <style> or <title>
+<style> … </style>
+The HTML <style> element contains style information for a document, or part of a document.
+<title> … </title>
+The HTML Title element (<title>) defines the document's title that is shown in a browser's title
+bar or a page's tab.
+Example:
+WebsiteSetup.org - Beginner’s HTML Cheat Sheet 2
+<!DOCTYPE html>
+<html lang="en">
+<head>...</head>
+<body>...</body>
+</html>
+Sectioning root
+<body> … </body>
+The HTML <body> Element represents the content of an HTML document. There can be only
+one <body> element in a document.
+Example:
+<html>
+<head>
+<title>Document title</title>
+</head>
+<body>
+<p>This is a paragraph</p>
+</body>
+</html>
+Content sectioning
+<address> … </address>
+The HTML <address> element indicates that the enclosed HTML provides contact information
+for a person or people, or for an organization.
+<article> … </article>
+The HTML <article> element represents a self-contained composition in a document, page,
+application, or site, which is intended to be independently distributable or reusable (e.g., in
+syndication).
+<aside> … </aside>
+The HTML <aside> element represents a portion of a document whose content is only indirectly
+related to the document's main content.
+<footer> … </footer>
+The HTML <footer> element represents a footer for its nearest sectioning content or sectioning
+root element. A footer typically contains information about the author of the section, copyright
+data or links to related documents.
+WebsiteSetup.org - Beginner’s HTML Cheat Sheet 3
+<header> … </header>
+The HTML <header> element represents introductory content, typically a group of introductory
+or navigational aids. It may contain some heading elements but also a logo, a search form, an
+author name, and other elements.
+<h1> to <h6> … </h6>
+The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest
+section level and <h6> is the lowest.
+<main> … </main>
+The HTML <main> element represents the dominant content of the <body> of a document. The
+main content area consists of content that is directly related to or expands upon the central
+topic of a document, or the central functionality of an application.
+<nav> … </nav>
+The HTML <nav> element represents a section of a page whose purpose is to provide
+navigation links, either within the current document or to other documents. Common examples
+of navigation sections are menus, tables of contents, and indexes.
+<section> … </section>
+The HTML <section> element represents a standalone section — which doesn't have a more
+specific semantic element to represent it — contained within an HTML document.
+Example:
+<address>
+<a href="mailto:jim@rock.com">jim@rock.com</a><br>
+<a href="tel:+13115552368">(311) 555-2368</a>
+</address>
